@@ -11,7 +11,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('La-casa-de-papel.jpg');
+    background-image: url('../img/La-casa-de-papel.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -161,6 +161,7 @@ header section .content h2{
     padding-left: 100px;
     margin-top: 40px;
     height: 200px;
+    
    
 }
 
@@ -261,6 +262,7 @@ header .cards .card{
     height: 500px;
     margin-left: 200px;
     margin-top: 60px;
+   
    
 }
 
@@ -396,9 +398,22 @@ header .cards .card{
 }
 
 .tofnan{
-    margin-top: 100px;
-    margin-left: -300px;
+    margin-top: 6px;
+    margin-left: 1400px;
 
+}
+
+.imginter{
+    margin-top: -3900px;
+    margin-left: 180px;
+}
+
+.reto{
+    margin-top: 3300px;
+    margin-left: 800px;
+    border-radius: 50px 50px 50px 10px;
+    background-color: rgb(79, 116, 181);
+    
 }
 
  
@@ -419,410 +434,6 @@ header .cards .card{
 
 
 
-
-
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
-
-body{
-    width: 100%;
-    height: 100vh;
-    background: #010101;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url('La-casa-de-papel.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-header{
-    position: relative;
-    width: 100%;
-    height: 100%; 
-    border-radius: 20px;
-}
-
-header .mic_dot{
-    position: absolute;
-    width: 100px;
-    height: 15px;  
-    left: 47%;
-    top: -3px;
-    border-radius: 0px 0px 10px 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-header .mic_dot .mic{
-    
-    width: 30px;
-    height: 3px;
-   
-    border-radius: 50px;
-    margin-right: 10px;
-    margin-bottom: 1px;
-}
-
-header .mic_dot .dot{
-    
-    width: 4px;
-    height: 4px; 
-    border-radius: 50%;
-    margin-bottom: 1px;
-    
-}
-
-header nav{
-    width: 91%;
-    height: 5%;
-   /* border: 1px solid white;*/
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-header nav .logo{
-    width: 20%;
-    height: 100%;
-   /* border: 1px solid white;*/
-    color: white;
-    font-family: "system wi";
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
-    font-size: x-large;
-    
-}
-
-header nav ul{
-    width: 60%;
-    height: 100%;
-    /*border: 1px solid white;*/
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-
-}
-
-header nav ul li{
-    list-style-type: none;
-    padding: 3px 10px;
-}
-
-
-header nav ul li a{
-    text-decoration: none;
-    font-family: "system-wi";
-    font-size: 14px;
-    font-weight: bold;
-    transition: all .3s ease-in-out;
-}
-
-header nav ul li a{
-    color:white;
-}
-
-header nav .recherche{
-    width: 20%;
-    height: 100%;
-    display: flex;
-    align-items: flex;
-    justify-content: flex-end;
-}
-header nav .recherche input{
-    width: 90%;
-    padding: 5px 0px 3px 15px;
-    border-radius: 20px;
-    border: none;
-    outline: none;
-}
-
-/* nav end */
-
-header .section{
-    border: 1px solid #fff;
-    width: 95%;
-    height: 56.5%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-header section .content{
-    width: 400px;
-    height: 70%;
-    padding-left: 100px;
-    
-  
-    
-}
-
-header section .content h2{
-    color: #fff;
-    font-family: system-ui;
-    font-size: 35px;
-    margin-top: 100px;
-}
-
-.content1{
-    color: white;
-    margin-top: 20px;
-   padding-left: 90px;
-   font-size: xx-large;
-}
-
-.btn2{
-    width: 250px;
-    padding-left: 100px;
-    margin-top: 40px;
-    height: 200px;
-   
-}
-
-button{
-    height: 50px;
-    width: 100px;
-}
-
-
-header .cards .card{
-    width: 125px;
-    height: 185px;
-    border: 1px solid red;
-}
-
-.images{
-    display: flex;
-    width: 500px;
-    height: 500px;
-   padding-left: 450px;
-   margin-top: 200px;
-}
-
-.fran{
-    width: 100px;
-    height: 60px;
-    margin-left: 1600px;
-    margin-top: 500px;
-}
-
-.tp{
-    color: white;
-    position: absolute;
-    margin-left: 1600px;
-    width: 500px;
-    height: 100px;
-    font-size: xx-large;
-    padding-top: 10px;
-
-}
-
-.bk{
-    margin-left: 500px; 
-    margin-top: -100px;
-    text-decoration:white;
-    width: 200px;
-    
-}
-
-.bd{
-    color: white;
-    margin-top: 350Px;
-    margin-left: 100px;
-    font-size: xx-large;
-}
-
-.vpa{
-    color: white;
-    font-size: xx-large;
-    margin-left: 1600px;
-    margin-top: 4Px;
-
-}
-
-.ifbd{
-    display: flex;
-    width: 500px;
-    height: 400px;
-   padding-left: 170px;
-   margin-top: px;
-}
-
-.pt{
-    color: rgb(249, 248, 250);
-    position: absolute; 
-    font-size: xx-large;
-    margin-top: 150px;
-    margin-left: 170px;
-}
-
-.pt2{
-    color: rgb(241, 244, 246);
-    position: absolute; 
-    font-size: xx-large;
-    margin-left: 405px;
-    margin-top: 150px;
-}
-
-.co{
-    color: rgb(24, 228, 31);
-    font-size: xx-large;
-    margin-left: 250px;
-    margin-top: 500px;
-}
-
-.aunc{
-    width: 200px ;
-    height: 500px;
-    margin-left: 200px;
-    margin-top: 60px;
-   
-}
-
-.av{
-    font-size: xx-large;
-    color: white;
-    margin-left: 300px;
-    margin-top: 200px;
-    margin-top: -430px;
-    
-
-}
-
-.sug{
-    font-size: xx-large;
-    color: rgb(236, 5, 201);
-    margin-left: 200px;
-    margin-top: 100px;
-    
-}
-
-
-.rokin{
-    width: 550px;
-    margin-left: 1300px;
-    margin-top: 530px;
-}
-
-.rokin{
-    margin-top: 90px;
-    
-}
-
-.corboye{
-    margin-top: -440px;
-    margin-left: 900px;
-    height: 300px;
-}
-
-.bleu{
-    margin-top: -270px;
-    margin-left: 500px;
-}
-
-.baby{
-    margin-top: -500px;
-    margin-left: 110px;
-}
-
-
-.premiercommentaire{
-    width: 900px;
-    height: 100px;
-    background-color: rgb(76, 81, 107);
-    margin-left: 200px;
-    margin-top: 100px;
-    font-size: xx-large;
-    
-}
-
-.titre1{
-    font-size: xx-large;
-    color: rgb(191, 165, 36);
-    margin-left: -1200px;
-}
-
-.titre2{
-    font-size: xx-large;
-    color: rgb(8, 244, 75);
-    margin-left: -20px;
-}
-
-.titre3{
-    font-size: xx-large;
-    color: rgb(213, 114, 207);
-    margin-top: -10px;
-    
-    
-}
-
-.titre4{
-    font-size: xx-large;
-    color: rgb(0, 60, 255);
-    margin-top: -10px;
-    margin-left: 1200px;
-}
-
-.mission{
-    margin-left: 1300px;
-    margin-top: 150px;
-    font-size: xx-large;
-    color: aqua;
-}
-
-.ruby{
-    margin-top: -500px;
-    margin-left: 900px;
-}
-
-.r1{
-    color: rgb(225, 111, 111);
-    margin-top: -10px;
-    font-size: xx-large;
-    margin-left: 10px;
-}
-
-.bateau{
-    margin-left: 500px;
-    margin-top: -420px;
-}
-
-.f3{
-    color: rgb(136, 181, 187);
-    font-size: xx-large;
-}
-
-.noir{
-    margin-top: -500px;
-    margin-left: 90px;
-}
-
-.t4{
-   color: rgb(255, 0, 0);
-   font-size: xx-large;
-}
-
-.motfin{
-    color: white;
-    margin-top: 230px;
-    margin-left: 300px;
-    font-size: xx-large;
-    
-}
-
-.tofnan{
-    margin-top: 100px;
-    margin-left: -300px;
-
-}
 
  
 
