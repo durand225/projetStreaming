@@ -1,0 +1,220 @@
+
+*{ 
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: black;
+}
+
+@media (min-width:1000px) {
+    .tiret {
+        color: white;
+        width: 100%;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        background-color: black;
+        font-size: 3rem;
+    }
+    .tiret1{
+        height: 550px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .vod{
+        height: 500px;
+        width: 500px;
+        background: url(../assets/blood.jpg)50% no-repeat;
+        background-size: cover;
+    }
+    .vod1{
+        background: url(../assets/arton20905-2e9ee.jpg)50% no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 500px;
+        background-color: rgb(55, 173, 61);
+        
+    }
+    .vod2{
+        height: 500px;
+        width: 500px;
+        background: url(../assets/cacao.webp)50% no-repeat;
+        background-size: cover;
+    }
+    .vod3{
+        background: url(../assets/ma\ famille.webp)50% no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 500px;
+        background-color: rgb(55, 173, 61);
+        
+    }
+    .vod4{
+        height: 500px;
+        width: 500px;
+        background: url(../assets/la-meute.webp)50% no-repeat;
+        background-size: cover;
+    }
+    .vod5{
+        background: url(../assets/ivoire-newsroom-cotedivoire-ladernierevoix.png)50% no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 500px;
+        background-color: rgb(55, 173, 61);
+        
+    }
+    .vod6{
+        height: 500px;
+        width: 500px;
+        background: url(../assets/les-bobodiouf.jpg)50% no-repeat;
+        background-size: cover;
+    }
+    .vod7{
+        background: url(../assets/terre\ de\ passion.jpg)50% no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 500px;
+        background-color: rgb(55, 173, 61);
+        
+    }
+    .vod8{
+        height: 500px;
+        width: 500px;
+        background: url(../assets/blood.jpg)50% no-repeat;
+        background-size: cover;
+    }
+    .vod9{
+        background: url(../assets/arton20905-2e9ee.jpg)50% no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 500px;
+        background-color: rgb(55, 173, 61);
+        
+    }
+    .tdst {
+        height: 300px;
+        width: 100%;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 200px;
+    }
+    
+}
+
+
+@media (max-width:1000px) {
+    .tiret {
+        color: white;
+        width: 100%;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        background-color: black;
+        font-size: 1.2rem;
+    }
+    .tiret1{
+        height: 250px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .vod{
+        height: 70%;
+        width: 70%;
+        background: url(../assets/blood.jpg)50% no-repeat;
+        background-size: cover;
+    }
+    .vod1{
+        background: url(../assets/arton20905-2e9ee.jpg)50% no-repeat;
+        background-size: cover;
+        height: 70%;
+        width: 70%;
+        background-color: rgb(55, 173, 61);
+        
+    }
+    .vod2{
+        height: 70%;
+        width: 70%;
+        background: url(../assets/blood.jpg)50% no-repeat;
+        background-size: cover;
+    }
+    .vod3{
+        background: url(../assets/arton20905-2e9ee.jpg)50% no-repeat;
+        background-size: cover;
+        height: 70%;
+        width: 70%;
+        background-color: rgb(55, 173, 61);
+        
+    }
+    .vod4{
+        height: 70%;
+        width: 70%;
+        background: url(../assets/blood.jpg)50% no-repeat;
+        background-size: cover;
+    }
+    .vod5{
+        background: url(../assets/arton20905-2e9ee.jpg)50% no-repeat;
+        background-size: cover;
+        height: 70%;
+        width: 70%;
+        background-color: rgb(55, 173, 61);
+        
+    }
+    .vod6{
+        height: 70%;
+        width: 70%;
+        background: url(../assets/blood.jpg)50% no-repeat;
+        background-size: cover;
+    }
+    .vod7{
+        background: url(../assets/arton20905-2e9ee.jpg)50% no-repeat;
+        background-size: cover;
+        height: 70%;
+        width: 70%;
+        background-color: rgb(55, 173, 61);
+        
+    }
+    .vod8{
+        height: 70%;
+        width: 70%;
+        background: url(../assets/blood.jpg)50% no-repeat;
+        background-size: cover;
+    }
+    .vod9{
+        background: url(../assets/arton20905-2e9ee.jpg)50% no-repeat;
+        background-size: cover;
+        height: 70%;
+        width: 70%;
+        background-color: rgb(55, 173, 61);
+        
+    }
+    .tdst {
+        height: 300px;
+        width: 100%;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       
+        font-size: 0.5rem  ;
+    }
+    
+}

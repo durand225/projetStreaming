@@ -1,0 +1,43 @@
+
+*{
+    background-color: rgb(6, 6, 6);
+}
+
+.nan1{
+    color: rgb(10, 130, 235);
+    font-size: xx-large;
+}
+
+
+.premierepartie{
+    margin-top: 100px;
+    margin-left: 300px;
+    width: 100px;
+    height: -100px;
+}
+
+.deuxiemeimage{
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
+.dernierephoto{
+    margin-left: 1400px;
+    margin-top: 100px;
+}
+
+.titrecine{
+    color: rgb(240, 13, 13);
+    margin-top: -400px;
+    margin-left: 240px;
+    font-size: xx-large;
+}
+
+.gra{
+    color: rgb(246, 3, 3);
+    font-size: xx-large;
+    margin-left: 240px;
+  
+}
+
+
